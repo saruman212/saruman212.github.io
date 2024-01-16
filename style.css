@@ -1,6 +1,7 @@
 p {
-  color: blue;
+  color: red;
   font-size: 18px;
+  font-family: cursive;
 }
 /* Creamos una clase llamada centrado */
 .centrado {
