@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi página web de juegos</title>
+    <title>Mirror de MomazosPablo</title>
 </head>
 <body>
-    <h1>Bienvenido a mi página web de juegos</h1>
-    <p>En esta página podrás encontrar algunos juegos divertidos y sencillos.</p>
-    <ul>
-        <li><a href="juego1.html">Juego 1</a></li>
-        <li><a href="juego2.html">Juego 2</a></li>
-        <li><a href="juego3.html">Juego 3</a></li>
-    </ul>
+    <h1>Si no aparece el botón de PureProxy refresca la página</h1></h1>
+    <p>Creado por @ElMadafaker70</p>
 </body>
+    <head>
+        <title>Launcher</title>
+      <style>
+    button {
+      font-size: 30px;
+      line-height: 50px;
+      text-align: center;
+      width: 400px;
+      height: 75px;
+      background-color: peachpuff;
+    }
+  </style>
+    </head>
+    <body>
+        <script>
+        function create() {
+            var url = document.getElementById('input');
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url = 'https://ultigame2890.github.io/'; 
+            win.document.body.appendChild(iframe);
+        }
+        </script>
+        <button onclick='create()'>PureProxy</button>
+    </body>
 </html>
+
 
