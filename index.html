@@ -81,10 +81,16 @@ font-size:25px;
     </head>
     <body>
         <div class="centrado">
-        <button>Interstellar Proxie</button>
-            <a href="[6](https://googleclassroom-beta.vercel.app/)" target="_blank">
-  <input type="button" value="Proxie">
-</a>
+            <script>
+function abrirPagina(pagina, marco) {
+  window.open(pagina, marco);
+}
+
+abrirPagina("[5](https://googleclassroom-beta.vercel.app/", "miMarco"); 
+abrirPagina("[6](https://googleclassroom-beta.vercel.app/)", "_blank"); 
+
+            </script>
+        <button onclick='abrirPagina()'>Interstellar Proxie</button>
 
     </body>
 </html>
