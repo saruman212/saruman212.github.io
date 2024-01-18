@@ -89,21 +89,6 @@ function abrirPagina(pagina, marco) {
 // Crear un botón HTML que llame a la función con los argumentos deseados
             </script>
 <button onclick="abrirPagina('class.html', 'miMarco')">Interstellar Proxie</button>
-<div class="centrado">
-<p>Esta página ha sido visitada <span id="visitas"></span> veces.</p>
-    <script>
-        // Hacemos una petición al archivo PHP para obtener el número de visitas
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "vcounter.php");
-        xhr.onload = function() {
-            // Si la respuesta es exitosa, mostramos el número de visitas en el elemento HTML con id "visitas"
-            if (xhr.status == 200) {
-                document.getElementById("visitas").innerHTML = xhr.responseText;
-            }
-        };
-        xhr.send();
-    </script>
-</div>
     </body>
 </html>
 
