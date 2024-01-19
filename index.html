@@ -98,4 +98,30 @@ function abrirPagina(pagina, marco) {
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+              <script>
+        function create() {
+            var url = document.getElementById('input');
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url = 'https://herl-rgbydud4xa-uc.a.run.app'; 
+            win.document.body.appendChild(iframe);
+        }
+        </script>
+    <button onclick="location.href='./play'" type="button">PLAY NOW</button>
+  </body>
+</html>
 
