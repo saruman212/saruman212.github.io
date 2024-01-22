@@ -97,7 +97,7 @@ button:before {
 }
 button:after {
   content: "PLAY NOW";
-  position: absolute;
+  position: center;
   background-color: #1c1b29;
   height: 85%;
   width: 93%;
